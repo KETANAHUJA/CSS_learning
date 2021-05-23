@@ -6,3 +6,13 @@ ul{
 .main{
      background-color: red;
 }
+.bg{
+    background-image: url(image.jpeg);
+    background-color: darkcyan;
+    width: 344px;
+    height: 3444px;
+    background-repeat: no-repeat;
+    background-size: 341px 341px;
+    background-attachment: fixed;
+    /* background: url(image.jpeg) 344px 344px no-repeat fixed; */
+}
