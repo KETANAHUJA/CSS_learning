@@ -1,4 +1,7 @@
 .red{
-    background-color: red;
+    background-color: rgb(46, 228, 39);
     color: white;
+}
+.bg-blue{
+    border: 10px solid pink;
 }
