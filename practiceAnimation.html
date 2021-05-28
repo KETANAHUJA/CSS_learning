@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgressBar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+                height: 100px;
+                background-color: black;
+         }
+        main{
+                height: 600px;
+                background-color: blue;
+        }
+        .progress{
+            background-color: red;
+            height: 3.5px;
+            width: 100px;
+            animation: load 2s ease-in-out 0s 2  normal ;
+        }
+        @keyframes load {
+            0%{
+                width: 0;
+            }
+            50%{
+                width: 80vw;
+            }
+            100%{
+                width: 100vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+
+    </header>
+    <main>
+
+    </main>
+</body>
+</html>
