@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap8</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 455px;
+        }
+        .box{
+            border: 2px solid black;
+            /* transform:rotate(45deg);
+            transform-origin: 0; */
+        }
+        img{
+            width: 400px;
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+        }
+        /* img:hover
+        {
+            width: 100px;
+        } */
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="myimg" src="https://source.unsplash.com/WLUHO9A_xik/300x150">
+            <button id="btn">Toggle</button>
+
+        </div>
+    </div>
+    <script>
+        btn.addEventListener("click",()=>{
+            myimg.style.width="546px";
+        });
+    </script>
+</body>
+</html>
